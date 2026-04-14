@@ -8,4 +8,4 @@ Name: "utilities\jdk"; Description: "Java Development Toolkit (JDK)"; Types: ful
 Source: "{#MySrcDir}\utilities\jdk\*.exe"; DestDir: "{app}\jdk"; Components: utilities\jdk or decompilers\ghidra; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Run]
-Filename: "{app}\jdk\jdk-21_windows-x64_bin.exe"; Parameters: "/s"; Components: utilities\jdk or decompilers\ghidra; Check: Is64BitInstallMode
+Filename: "{app}\jdk\jdk-25_windows-x64_bin.exe"; Parameters: "/s"; Components: utilities\jdk or decompilers\ghidra; Check: Is64BitInstallMode

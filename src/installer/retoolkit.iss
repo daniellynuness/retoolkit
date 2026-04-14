@@ -172,7 +172,7 @@ Name: "utilities"; Description: "Utilities"; Types: full;
 #include "utilities\jdk.iss"
 #include "utilities\manw.iss"
 #include "utilities\npp.iss"
-#include "utilities\openhashtab.iss"
+;#include "utilities\openhashtab.iss"
 #include "utilities\regshot.iss"
 #include "utilities\vt.iss"
 #include "utilities\winapiexec.iss"
