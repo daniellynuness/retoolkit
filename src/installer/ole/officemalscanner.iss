@@ -1,5 +1,5 @@
 ; v0.61
-; http://www.reconstructer.org/code.html
+; https://github.com/fboldewin/reconstructer.org
 
 [Components]
 Name: "ole\officemalscanner"; Description: "OfficeMalScanner"; Types: full;

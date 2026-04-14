@@ -1,4 +1,4 @@
-; v2.3.4
+; v2.4.1
 ; https://cutter.re/
 
 [Components]

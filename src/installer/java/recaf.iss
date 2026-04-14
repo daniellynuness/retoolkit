@@ -1,4 +1,4 @@
-; v2.21.14
+; v4.0.0-alpha
 ; https://github.com/Col-E/Recaf
 
 [Components]

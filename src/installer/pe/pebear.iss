@@ -1,4 +1,4 @@
-; v0.7.0.4
+; v0.7.1
 ; https://github.com/hasherezade/pe-bear
 
 [Components]

@@ -1,4 +1,4 @@
-; v3.0
+; v3.4
 ; https://github.com/4n0nym0us/4n4lDetector
 
 [Components]

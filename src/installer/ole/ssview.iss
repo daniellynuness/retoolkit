@@ -1,5 +1,5 @@
 ; v4.1.2
-; https://www.mitec.cz/ssv.html
+; https://www.mitec.cz/wp/mssv/
 
 [Components]
 Name: "ole\ssview"; Description: "Structured Storage Viewer"; Types: full;

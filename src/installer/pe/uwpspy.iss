@@ -1,4 +1,4 @@
-; v1.3
+; v1.5.3
 ; https://github.com/m417z/UWPSpy
 
 [Components]

@@ -1,4 +1,4 @@
-; v0.13.1
+; v0.18.1
 ; https://github.com/HyperDbg/HyperDbg
 
 [Components]

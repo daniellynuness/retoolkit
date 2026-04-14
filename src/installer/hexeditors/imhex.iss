@@ -1,4 +1,4 @@
-; v1.37.4
+; v1.38.1
 ; https://github.com/WerWolv/ImHex
 
 [Components]

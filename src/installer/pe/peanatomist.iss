@@ -1,4 +1,4 @@
-; v0.2.13616.1740
+; v0.4.15200.000
 ; https://rammerlabs.alidml.ru/download/peanatomist/current
 
 [Components]
