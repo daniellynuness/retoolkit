@@ -1,4 +1,4 @@
-; v3.0.5
+; v3.1.1
 ; https://github.com/namazso/OpenHashTab
 
 ; We don't extract the main executable form the original installer because OpenHashTab

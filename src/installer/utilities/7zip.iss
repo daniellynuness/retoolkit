@@ -1,4 +1,4 @@
-; v24.09
+; v26.00
 ; https://www.7-zip.org
 
 ; We don't extract the main executable form the original installer because 7-Zip installs many a few libraries

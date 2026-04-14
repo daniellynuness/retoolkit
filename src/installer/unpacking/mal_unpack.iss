@@ -1,4 +1,4 @@
-; v0.9.9
+; v1.0
 ; https://github.com/hasherezade/mal_unpack
 
 [Components]

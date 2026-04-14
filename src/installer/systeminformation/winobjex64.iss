@@ -1,4 +1,4 @@
-; v2.0.6
+; v2.1.0
 ; https://github.com/hfiref0x/WinObjEx64
 
 [Components]

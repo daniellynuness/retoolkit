@@ -1,4 +1,4 @@
-; v5.0.0
+; v5.1.1
 ; https://github.com/upx/upx
 
 [Components]

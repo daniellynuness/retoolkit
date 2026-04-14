@@ -1,4 +1,4 @@
-; v8.7.9
+; v8.9.3
 ; https://notepad-plus-plus.org/
 
 [Components]
