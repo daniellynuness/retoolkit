@@ -1,4 +1,4 @@
-; snapshot_2023-10-28_15-22
+; snapshot_2025-08-19_19-40
 ; https://x64dbg.com/
 
 [Components]
@@ -41,7 +41,7 @@ Name: "debuggers\x64dbg\plugins\mapoanalyzer"; Description: "MapoAnalyzer"; Type
 Source: "{#MySrcDir}\debuggers\x64dbg\plugins\32\mapoanalyzer\*"; DestDir: "{app}\debuggers\x64dbg\release\x32\plugins"; Components: "debuggers\x64dbg\plugins\mapoanalyzer"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "{#MySrcDir}\debuggers\x64dbg\plugins\64\mapoanalyzer\*"; DestDir: "{app}\debuggers\x64dbg\release\x64\plugins"; Components: "debuggers\x64dbg\plugins\mapoanalyzer"; Flags: ignoreversion recursesubdirs createallsubdirs
 
-; Multiline Ultimate Assembler v2.3.7
+; Multiline Ultimate Assembler v2.3.8
 ; https://ramensoftware.com/multimate-assembler
 [Components]
 Name: "debuggers\x64dbg\plugins\multiasm"; Description: "Multiline Ultimate Assembler"; Types: full compact;
@@ -86,7 +86,7 @@ Name: "debuggers\x64dbg\plugins\swissarmyknife"; Description: "SwissArmyKnife"; 
 Source: "{#MySrcDir}\debuggers\x64dbg\plugins\32\swissarmyknife\*"; DestDir: "{app}\debuggers\x64dbg\release\x32\plugins"; Components: "debuggers\x64dbg\plugins\swissarmyknife"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "{#MySrcDir}\debuggers\x64dbg\plugins\64\swissarmyknife\*"; DestDir: "{app}\debuggers\x64dbg\release\x64\plugins"; Components: "debuggers\x64dbg\plugins\swissarmyknife"; Flags: ignoreversion recursesubdirs createallsubdirs
 
-; xAnalyzer v2.5.6
+; xAnalyzer v2.5.12
 ; https://github.com/ThunderCls/xAnalyzer
 [Components]
 Name: "debuggers\x64dbg\plugins\xanalyzer"; Description: "xAnalyzer"; Types: full compact;

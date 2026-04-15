@@ -8,7 +8,7 @@
 Name: "utilities\openhashtab"; Description: "OpenHashTab"; Types: full;
 
 [Files]
-Source: "{#MySrcDir}\utilities\openhashtab\*.exe"; DestDir: "{app}\openhashtab"; Components: "utilities\openhashtab"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "{#MySrcDir}\utilities\openhashtab\*.msi"; DestDir: "{app}\openhashtab"; Components: "utilities\openhashtab"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Run]
-Filename: "{app}\openhashtab\OpenHashTab_setup.exe"; Parameters: "/verysilent /currentuser"; Components: "utilities\openhashtab"
+Filename: "{app}\openhashtab\OpenHashTab_User_x64.msi"; Parameters: "/verysilent /currentuser"; Components: "utilities\openhashtab"
