@@ -1,4 +1,4 @@
-; v0.84 (main branch 2024-05-01)
+; v0.85.0
 ; https://github.com/mentebinaria/readpe
 
 [Components]
