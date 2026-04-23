@@ -1,4 +1,4 @@
-; Winpython64-3.12.9.0dot.7z
+; Winpython64-3.13.12.0dot.zip
 ; https://github.com/winpython/winpython
 
 [Components]
