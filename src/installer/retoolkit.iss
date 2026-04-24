@@ -26,158 +26,158 @@ ArchitecturesInstallIn64BitMode=x64os
 UsePreviousTasks=yes
 ChangesEnvironment=yes
 
-[Components]
-Name: "android"; Description: "Android Tools"; Types: full;
-#include "android\dex2jar.iss"
+; [Components]
+; Name: "android"; Description: "Android Tools"; Types: full;
+; #include "android\dex2jar.iss"
 
-[Components]
-Name: "autoit"; Description: "AutoIt Decompilers"; Types: full;
-#include "autoit\exe2aut.iss"
-#include "autoit\myauttoexe.iss"
+; [Components]
+; Name: "autoit"; Description: "AutoIt Decompilers"; Types: full;
+; #include "autoit\exe2aut.iss"
+; #include "autoit\myauttoexe.iss"
 
-[Components]
-Name: "calculators"; Description: "Calculators"; Types: full;
-#include "calculators\xopcodecalc.iss"
+; [Components]
+; Name: "calculators"; Description: "Calculators"; Types: full;
+; #include "calculators\xopcodecalc.iss"
 
-[Components]
-Name: "cobaltstrike"; Description: "Cobalt Strike Beacon Analysis"; Types: full;
-#include "cobaltstrike\1768.iss"
-#include "cobaltstrike\cobaltstrikescan.iss"
+; [Components]
+; Name: "cobaltstrike"; Description: "Cobalt Strike Beacon Analysis"; Types: full;
+; #include "cobaltstrike\1768.iss"
+; #include "cobaltstrike\cobaltstrikescan.iss"
 
-[Components]
-Name: "debuggers"; Description: "Debuggers"; Types: full;
-#include "debuggers\hyperdbg.iss"
-#include "debuggers\x64dbg.iss"
+; [Components]
+; Name: "debuggers"; Description: "Debuggers"; Types: full;
+; #include "debuggers\hyperdbg.iss"
+; #include "debuggers\x64dbg.iss"
 
-[Components]
-Name: "decompilers"; Description: "Decompilers"; Types: full;
-#include "decompilers\cutter.iss"
-#include "decompilers\ghidra.iss"
+; [Components]
+; Name: "decompilers"; Description: "Decompilers"; Types: full;
+; #include "decompilers\cutter.iss"
+; #include "decompilers\ghidra.iss"
 
-[Components]
-Name: "delphi"; Description: "Delphi Tools"; Types: full;
-#include "delphi\idr.iss"
+; [Components]
+; Name: "delphi"; Description: "Delphi Tools"; Types: full;
+; #include "delphi\idr.iss"
 
-[Components]
-Name: "dotnet"; Description: "Dotnet Tools"; Types: full;
-#include "dotnet\de4dot.iss"
-#include "dotnet\dnspyex.iss"
-#include "dotnet\dotdumper.iss"
-#include "dotnet\extremedumper.iss"
-#include "dotnet\ilspy.iss"
-#include "dotnet\rundotnetdll.iss"
-#include "dotnet\sae.iss"
+; [Components]
+; Name: "dotnet"; Description: "Dotnet Tools"; Types: full;
+; #include "dotnet\de4dot.iss"
+; #include "dotnet\dnspyex.iss"
+; #include "dotnet\dotdumper.iss"
+; #include "dotnet\extremedumper.iss"
+; #include "dotnet\ilspy.iss"
+; #include "dotnet\rundotnetdll.iss"
+; #include "dotnet\sae.iss"
 
-[Components]
-Name: "elf"; Description: "ELF Tools"; Types: full;
-#include "elf\elfparserng.iss"
-#include "elf\xelfviewer.iss"
+; [Components]
+; Name: "elf"; Description: "ELF Tools"; Types: full;
+; #include "elf\elfparserng.iss"
+; #include "elf\xelfviewer.iss"
 
-[Components]
-Name: "go"; Description: "Go Tools"; Types: full;
-#include "go\gftrace.iss"
-#include "go\goresym.iss"
-#include "go\redress.iss"
+; [Components]
+; Name: "go"; Description: "Go Tools"; Types: full;
+; #include "go\gftrace.iss"
+; #include "go\goresym.iss"
+; #include "go\redress.iss"
 
-[Components]
-Name: "hexeditors"; Description: "Hex Editors"; Types: full;
-#include "hexeditors\fhex.iss"
-#include "hexeditors\hxd.iss"
-#include "hexeditors\imhex.iss"
-#include "hexeditors\rehex.iss"
-#include "hexeditors\dz6.iss"
+; [Components]
+; Name: "hexeditors"; Description: "Hex Editors"; Types: full;
+; #include "hexeditors\fhex.iss"
+; #include "hexeditors\hxd.iss"
+; #include "hexeditors\imhex.iss"
+; #include "hexeditors\rehex.iss"
+; #include "hexeditors\dz6.iss"
 
-[Components]
-Name: "java"; Description: "Java"; Types: full;
-#include "java\jadx.iss"
-#include "java\jdgui.iss"
-#include "java\recaf.iss"
+; [Components]
+; Name: "java"; Description: "Java"; Types: full;
+; #include "java\jadx.iss"
+; #include "java\jdgui.iss"
+; #include "java\recaf.iss"
 
-[Components]
-Name: "ole"; Description: "OLE/Compound File Binary File analysis (.msi, .doc, etc)"; Types: full;
-#include "ole\lessmsi.iss"
-#include "ole\officemalscanner.iss"
-#include "ole\oledump.iss"
-#include "ole\ssview.iss"
+; [Components]
+; Name: "ole"; Description: "OLE/Compound File Binary File analysis (.msi, .doc, etc)"; Types: full;
+; #include "ole\lessmsi.iss"
+; #include "ole\officemalscanner.iss"
+; #include "ole\oledump.iss"
+; #include "ole\ssview.iss"
 
-[Components]
-Name: "network"; Description: "Network"; Types: full;
-#include "network\fakenet.iss"
-#include "network\echomirage.iss"
-#include "network\nmap.iss"
+; [Components]
+; Name: "network"; Description: "Network"; Types: full;
+; #include "network\fakenet.iss"
+; #include "network\echomirage.iss"
+; #include "network\nmap.iss"
 
-[Components]
-Name: "pdf"; Description: "PDF Tools"; Types: full;
-#include "pdf\pdf-parser.iss"
-#include "pdf\pdfid.iss"
+; [Components]
+; Name: "pdf"; Description: "PDF Tools"; Types: full;
+; #include "pdf\pdf-parser.iss"
+; #include "pdf\pdfid.iss"
 
-[Components]
-Name: "pe"; Description: "PE Tools"; Types: full;
-#include "pe\4n4ldetector.iss"
-#include "pe\capa.iss"
-#include "pe\die.iss"
-#include "pe\dll_to_exe.iss"
-#include "pe\exeinfope.iss"
-#include "pe\floss.iss"
-#include "pe\pe_unmapper.iss"
-#include "pe\peanatomist.iss"
-#include "pe\pebear.iss"
-#include "pe\pestudio.iss"
-#include "pe\readpe.iss"
-#include "pe\reshack.iss"
-#include "pe\stud_pe.iss"
-#include "pe\winapisearch.iss"
-#include "pe\uwpspy.iss"
+; [Components]
+; Name: "pe"; Description: "PE Tools"; Types: full;
+; #include "pe\4n4ldetector.iss"
+; #include "pe\capa.iss"
+; #include "pe\die.iss"
+; #include "pe\dll_to_exe.iss"
+; #include "pe\exeinfope.iss"
+; #include "pe\floss.iss"
+; #include "pe\pe_unmapper.iss"
+; #include "pe\peanatomist.iss"
+; #include "pe\pebear.iss"
+; #include "pe\pestudio.iss"
+; #include "pe\readpe.iss"
+; #include "pe\reshack.iss"
+; #include "pe\stud_pe.iss"
+; #include "pe\winapisearch.iss"
+; #include "pe\uwpspy.iss"
 
-[Components]
-Name: "processinspection"; Description: "Process Inspection"; Types: full;
-#include "processinspection\apimonitor.iss"
-#include "processinspection\filegrab.iss"
-#include "processinspection\hollowshunter.iss"
-#include "processinspection\pesieve.iss"
-#include "processinspection\observer.iss"
-#include "processinspection\systeminformer.iss"
-#include "processinspection\xntsv.iss"
+; [Components]
+; Name: "processinspection"; Description: "Process Inspection"; Types: full;
+; #include "processinspection\apimonitor.iss"
+; #include "processinspection\filegrab.iss"
+; #include "processinspection\hollowshunter.iss"
+; #include "processinspection\pesieve.iss"
+; #include "processinspection\observer.iss"
+; #include "processinspection\systeminformer.iss"
+; #include "processinspection\xntsv.iss"
 
-[Components]
-Name: "programming"; Description: "Programming"; Types: full;
-#include "programming\devcpp.iss"
-#include "programming\fasm.iss"
-#include "programming\winpython.iss"
+; [Components]
+; Name: "programming"; Description: "Programming"; Types: full;
+; #include "programming\devcpp.iss"
+; #include "programming\fasm.iss"
+; #include "programming\winpython.iss"
 
-[Components]
-Name: "signature"; Description: "Signature"; Types: full;
-#include "signature\yara.iss"
-#include "signature\yarax.iss"
+; [Components]
+; Name: "signature"; Description: "Signature"; Types: full;
+; #include "signature\yara.iss"
+; #include "signature\yarax.iss"
 
-[Components]
-Name: "systeminformation"; Description: "System Information"; Types: full;
-#include "systeminformation\winobjex64.iss"
+; [Components]
+; Name: "systeminformation"; Description: "System Information"; Types: full;
+; #include "systeminformation\winobjex64.iss"
 
-[Components]
-Name: "unpacking"; Description: "Unpacking"; Types: full;
-#include "unpacking\novmp.iss"
-#include "unpacking\mal_unpack.iss"
-#include "unpacking\qunpack.iss"
-#include "unpacking\upx.iss"
-#include "unpacking\xvolkolak.iss"
+; [Components]
+; Name: "unpacking"; Description: "Unpacking"; Types: full;
+; #include "unpacking\novmp.iss"
+; #include "unpacking\mal_unpack.iss"
+; #include "unpacking\qunpack.iss"
+; #include "unpacking\upx.iss"
+; #include "unpacking\xvolkolak.iss"
 
 [Components]
 Name: "utilities"; Description: "Utilities"; Types: full;
-#include "utilities\7zip.iss"
-#include "utilities\bazzar.iss"
-#include "utilities\cyberchef.iss"
-#include "utilities\entropy.iss"
-#include "utilities\errorlookup.iss"
-#include "utilities\forcetoolkit.iss"
-#include "utilities\jdk.iss"
-#include "utilities\manw.iss"
-#include "utilities\npp.iss"
-;#include "utilities\openhashtab.iss"
-#include "utilities\regshot.iss"
-#include "utilities\vt.iss"
-#include "utilities\winapiexec.iss"
-#include "utilities\wub.iss"
+; #include "utilities\7zip.iss"
+; #include "utilities\bazzar.iss"
+; #include "utilities\cyberchef.iss"
+; #include "utilities\entropy.iss"
+; #include "utilities\errorlookup.iss"
+; #include "utilities\forcetoolkit.iss"
+; #include "utilities\jdk.iss"
+; #include "utilities\manw.iss"
+; #include "utilities\npp.iss"
+#include "utilities\openhashtab.iss"
+; #include "utilities\regshot.iss"
+; #include "utilities\vt.iss"
+; #include "utilities\winapiexec.iss"
+; #include "utilities\wub.iss"
 
 ; Use SendTo+ [https://github.com/lifenjoiner/sendto-plus/] for context menus
 ; as Windows limits the number of entries added via MUIVerb in Registry

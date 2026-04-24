@@ -11,4 +11,4 @@ Name: "utilities\openhashtab"; Description: "OpenHashTab"; Types: full;
 Source: "{#MySrcDir}\utilities\openhashtab\*.msi"; DestDir: "{app}\openhashtab"; Components: "utilities\openhashtab"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Run]
-Filename: "{app}\openhashtab\OpenHashTab_User_x64.msi"; Parameters: "/verysilent /currentuser"; Components: "utilities\openhashtab"
+Filename: "{app}\openhashtab\OpenHashTab_User_x64.msi"; Parameters: "/verysilent /currentuser"; Components: "utilities\openhashtab"; Flags: shellexec waituntilterminated
