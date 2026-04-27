@@ -9,4 +9,4 @@ Source: "{#MySrcDir}\systeminformation\winobjex64\*"; DestDir: "{app}\systeminfo
 
 [Icons]
 Name: "{group}\{#MyAppName}\WinObjEx64"; Filename: "{app}\systeminformation\winobjex64\WinObjEx64.exe"; WorkingDir: "{app}\systeminformation\winobjex64"; Components: "systeminformation\winobjex64"
-Name: "{app}\sendto+\sendto\Utilities\WinObjEx64"; Filename: "{app}\systeminformation\winobjex64\WinObjEx64.exe"; WorkingDir: "{app}\systeminformation\winobjex64"; Components: "systeminformation\winobjex64"
+Name: "{app}\sendto+\sendto\systeminformation\WinObjEx64"; Filename: "{app}\systeminformation\winobjex64\WinObjEx64.exe"; WorkingDir: "{app}\systeminformation\winobjex64"; Components: "systeminformation\winobjex64"
