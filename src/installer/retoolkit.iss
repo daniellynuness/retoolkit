@@ -81,11 +81,12 @@ Name: "go"; Description: "Go Tools"; Types: full;
 
 [Components]
 Name: "hexeditors"; Description: "Hex Editors"; Types: full;
+#include "hexeditors\dz6.iss"
 #include "hexeditors\fhex.iss"
 #include "hexeditors\hxd.iss"
 #include "hexeditors\imhex.iss"
 #include "hexeditors\rehex.iss"
-#include "hexeditors\dz6.iss"
+
 
 [Components]
 Name: "java"; Description: "Java"; Types: full;
