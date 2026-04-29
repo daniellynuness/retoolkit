@@ -14,3 +14,5 @@ Name: "{app}\sendto+\sendto\Documentation\retoolkit wiki"; Filename: "https://gi
 Name: "{app}\sendto+\sendto\Documentation\Reverse Engineering For Everyone"; Filename: "{app}\documentation\Reverse Engineering for everyone.pdf"
 Name: "{app}\sendto+\sendto\Documentation\syscalls"; Filename: "https://syscalls.w3challs.com"
 Name: "{app}\sendto+\sendto\Documentation\VMware Hardened VM detection mitigation loader"; Filename: "https://github.com/hzqst/VmwareHardenedLoader"
+Name: "{app}\sendto+\sendto\Documentation\PE Unmapper"; Filename: "https://github.com/hasherezade/pe_unmapper"
+Name: "{app}\sendto+\sendto\Documentation\Run Dot Net Dll"; Filename: "https://github.com/enkomio/RunDotNetDll"

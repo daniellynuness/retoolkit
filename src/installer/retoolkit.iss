@@ -272,10 +272,8 @@ begin
       if WizardIsComponentSelected('dotnet\de4dot') then EnvAddPath(ExpandConstant('{app}') + '\dotnet\de4dot');
       if WizardIsComponentSelected('ole\lessmsi') then EnvAddPath(ExpandConstant('{app}') + '\ole\lessmsi');
       if WizardIsComponentSelected('ole\officemalscanner') then EnvAddPath(ExpandConstant('{app}') + '\ole\officemalscanner');
-      if WizardIsComponentSelected('processinspection\hollowshunter') then EnvAddPath(ExpandConstant('{app}') + '\processinspection\hollowshunter');
       if WizardIsComponentSelected('processinspection\observer') then EnvAddPath(ExpandConstant('{app}') + '\processinspection\observer');
-      if WizardIsComponentSelected('processinspection\pesieve') then EnvAddPath(ExpandConstant('{app}') + '\processinspection\pesieve');
-      if WizardIsComponentSelected('programming\winpython') then EnvAddPath(ExpandConstant('{app}') + '\programming\winpython\python-3.11.3.amd64');
+      if WizardIsComponentSelected('programming\winpython') then EnvAddPath(ExpandConstant('{app}') + '\programming\winpython\python');
       if WizardIsComponentSelected('utilities\winapiexec') then EnvAddPath(ExpandConstant('{app}') + '\utilities\winapiexec');
     end
 end;
@@ -291,10 +289,8 @@ begin
       EnvRemovePath(ExpandConstant('{app}') + '\dotnet\de4dot');
       EnvRemovePath(ExpandConstant('{app}') + '\ole\lessmsi');
       EnvRemovePath(ExpandConstant('{app}') + '\ole\officemalscanner');
-      EnvRemovePath(ExpandConstant('{app}') + '\processinspection\hollowshunter');
       EnvRemovePath(ExpandConstant('{app}') + '\processinspection\observer');
-      EnvRemovePath(ExpandConstant('{app}') + '\processinspection\pesieve');
-      EnvRemovePath(ExpandConstant('{app}') + '\programming\winpython\python-3.11.3.amd64');
+      EnvRemovePath(ExpandConstant('{app}') + '\programming\winpython\python');
       EnvRemovePath(ExpandConstant('{app}') + '\utilities\winapiexec');
     end
 end;
