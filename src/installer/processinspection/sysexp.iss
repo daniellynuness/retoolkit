@@ -2,11 +2,11 @@
 ; https://github.com/zodiacon/SystemExplorer
 
 [Components]
-Name: "processinspection\sysexp"; Description: "System Explorer"; Types: full; Check: Is64BitInstallMode
+Name: "processinspection\systemexplorer"; Description: "System Explorer"; Types: full; Check: Is64BitInstallMode
 
 [Files]
-Source: "{#MySrcDir}\processinspection\systemexplorer\SysExp.exe"; DestDir: "{app}\systemexplorer"; Components: "processinspection\sysexp"; Flags: ignoreversion recursesubdirs createallsubdirs; Check: Is64BitInstallMode
+Source: "{#MySrcDir}\processinspection\systemexplorer\*"; DestDir: "{app}\processinspection\systemexplorer"; Components: "processinspection\systemexplorer"; Flags: ignoreversion recursesubdirs createallsubdirs; Check: Is64BitInstallMode
 
 [Icons]
-Name: "{group}\{#MyAppName}\System Explorer"; Filename: "{app}\systemexplorer\SysExp.exe"; WorkingDir: "{app}\systemexplorer"; Components: "processinspection\sysexp"; Check: Is64BitInstallMode
-Name: "{app}\sendto+\sendto\Process Inspection\System Explorer"; Filename: "{app}\systemexplorer\SysExp.exe"; WorkingDir: "{app}\systemexplorer"; Components: "processinspection\sysexp"; Check: Is64BitInstallMode
+Name: "{group}\{#MyAppName}\System Explorer"; Filename: "{app}\processinspection\systemexplorer\SysExp.exe"; WorkingDir: "{app}\processinspection\systemexplorer"; Components: "processinspection\systemexplorer"; Check: Is64BitInstallMode
+Name: "{app}\sendto+\sendto\Process Inspection\System Explorer"; Filename: "{app}\processinspection\systemexplorer\SysExp.exe"; WorkingDir: "{app}\processinspection\systemexplorer"; Components: "processinspection\systemexplorer"; Check: Is64BitInstallMode
