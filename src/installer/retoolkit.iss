@@ -101,12 +101,13 @@ ChangesEnvironment=yes
 ; #include "ole\oledump.iss"
 ; #include "ole\ssview.iss"
 
-; [Components]
-; Name: "network"; Description: "Network"; Types: full;
+ [Components]
+ Name: "network"; Description: "Network"; Types: full;
 ; #include "network\fakenet.iss"
 ; #include "network\echomirage.iss"
-; #include "network\nmap.iss"
-; #include "network\wireshark.iss"
+ #include "network\nmap.iss"
+ #include "network\npcap.iss"
+ #include "network\wireshark.iss"
 
 ; [Components]
 ; Name: "pdf"; Description: "PDF Tools"; Types: full;
@@ -132,8 +133,8 @@ ChangesEnvironment=yes
 ; #include "pe\winapisearch.iss"
 ; #include "pe\uwpspy.iss"
 
- [Components]
- Name: "processinspection"; Description: "Process Inspection"; Types: full;
+; [Components]
+; Name: "processinspection"; Description: "Process Inspection"; Types: full;
 ; #include "processinspection\apimonitor.iss"
 ; #include "processinspection\filegrab.iss"
 ; #include "processinspection\hollowshunter.iss"
@@ -142,7 +143,7 @@ ChangesEnvironment=yes
 ; #include "processinspection\systeminformer.iss"
 ; #include "processinspection\xntsv.iss"
 ; #include "processinspection\regshot.iss"
-#include "processinspection\sysexp.iss"
+; #include "processinspection\sysexp.iss"
 
 ; [Components]
 ; Name: "programming"; Description: "Programming"; Types: full;
@@ -297,3 +298,15 @@ begin
       EnvRemovePath(ExpandConstant('{app}') + '\utilities\winapiexec');
     end
 end;
+
+function NpcapNaoInstalado: Boolean;
+begin
+  Result := not (RegValueExists(HKEY_LOCAL_MACHINE, 'SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst', 'DisplayName') or
+    RegValueExists(HKEY_LOCAL_MACHINE_64, 'SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst', 'DisplayName') or
+    RegKeyExists(HKEY_LOCAL_MACHINE, 'SOFTWARE\Npcap') or
+    RegKeyExists(HKEY_LOCAL_MACHINE_64, 'SOFTWARE\Npcap')
+  );
+end;
+
+[Run]
+Filename: "{tmp}\npcap-1.87.exe"; Components: "network\nmap network\wireshark"; Check: NpcapNaoInstalado; Flags: shellexec waituntilterminated
