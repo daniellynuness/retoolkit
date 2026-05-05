@@ -8,7 +8,7 @@ Name: "network\nmap"; Description: "Nmap (plus Zenmap, Ndiff, Ncat, and Nping)";
 Source: "{#MySrcDir}\network\nmap\*.exe"; DestDir: "{app}\network\nmap"; Components: "network\nmap"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Run]
-Filename: "{app}\network\nmap\npcap-1.87.exe"; Check: NpcapNaoInstalado; Components: "network\nmap"
+Filename: "{app}\network\nmap\npcap-1.87.exe"; Check: NpcapNotInstall; Components: "network\nmap"
 Filename: "{app}\network\nmap\nmap-7.99-setup.exe"; Parameters: "/S /D={app}\network\nmap"; Components: "network\nmap"
 
 [Icons]

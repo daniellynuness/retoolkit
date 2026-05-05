@@ -299,7 +299,7 @@ begin
     end
 end;
 
-function NpcapNaoInstalado: Boolean;
+function NpcapNotInstall: Boolean;
 begin
   Result := not (RegValueExists(HKEY_LOCAL_MACHINE, 'SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst', 'DisplayName') or
     RegValueExists(HKEY_LOCAL_MACHINE_64, 'SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst', 'DisplayName') or
@@ -307,6 +307,3 @@ begin
     RegKeyExists(HKEY_LOCAL_MACHINE_64, 'SOFTWARE\Npcap')
   );
 end;
-
-[Run]
-Filename: "{tmp}\npcap-1.87.exe"; Components: "network\nmap network\wireshark"; Check: NpcapNaoInstalado; Flags: shellexec waituntilterminated
