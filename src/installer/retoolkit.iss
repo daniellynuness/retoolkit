@@ -106,7 +106,6 @@ ChangesEnvironment=yes
 ; #include "network\fakenet.iss"
 ; #include "network\echomirage.iss"
  #include "network\nmap.iss"
- #include "network\npcap.iss"
  #include "network\wireshark.iss"
 
 ; [Components]
@@ -299,11 +298,12 @@ begin
     end
 end;
 
-function NpcapNotInstall: Boolean;
+function NpcapInstalled: Boolean;
 begin
-  Result := not (RegValueExists(HKEY_LOCAL_MACHINE, 'SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst', 'DisplayName') or
-    RegValueExists(HKEY_LOCAL_MACHINE_64, 'SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst', 'DisplayName') or
+  Result := RegKeyExists(HKEY_LOCAL_MACHINE, 'SOFTWARE\WOW6432Node\Npcap') or
     RegKeyExists(HKEY_LOCAL_MACHINE, 'SOFTWARE\Npcap') or
-    RegKeyExists(HKEY_LOCAL_MACHINE_64, 'SOFTWARE\Npcap')
-  );
+    RegKeyExists(HKEY_LOCAL_MACHINE_64, 'SOFTWARE\Npcap') or
+    RegKeyExists(HKEY_LOCAL_MACHINE, 'SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst') or
+    RegKeyExists(HKEY_LOCAL_MACHINE, 'SYSTEM\ControlSet001\Services\npcap\') or
+    RegKeyExists(HKEY_LOCAL_MACHINE_64, 'SYSTEM\ControlSet001\Services\npcap\');
 end;
