@@ -1,5 +1,16 @@
 # retoolkit Changelog
 
+## 2026.04
+
+* Added: 
+   * DZ6.
+   * Frida. \[[#97](https://github.com/mentebinaria/retoolkit/issues/97)\]
+   * PPEE (Puppy). \[[#92](https://github.com/mentebinaria/retoolkit/issues/92)\]
+   * Wireshark. \[[#88](https://github.com/mentebinaria/retoolkit/issues/88)\]
+
+* Changes:
+   * Regshot was moved to Utilities.
+
 ## 2025.04
 
 * Added:
