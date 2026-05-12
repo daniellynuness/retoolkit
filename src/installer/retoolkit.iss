@@ -141,7 +141,6 @@ Name: "processinspection"; Description: "Process Inspection"; Types: full;
 #include "processinspection\observer.iss"
 #include "processinspection\systeminformer.iss"
 #include "processinspection\xntsv.iss"
-#include "processinspection\regshot.iss"
 #include "processinspection\sysexp.iss"
 
 [Components]
@@ -179,6 +178,7 @@ Name: "utilities"; Description: "Utilities"; Types: full;
 #include "utilities\manw.iss"
 #include "utilities\npp.iss"
 #include "utilities\openhashtab.iss"
+#include "utilities\regshot.iss"
 #include "utilities\vt.iss"
 #include "utilities\winapiexec.iss"
 #include "utilities\wub.iss"
