@@ -1,4 +1,4 @@
-; v1.2.65
+; v1.2.67
 ; https://github.com/goretk/redress
 
 [Components]
